@@ -16,28 +16,28 @@ section {
 }
 
 #section-black {
-    background: url(../images/black.jpg) no-repeat center center fixed;
+    background: url(../assets/images/black.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-dark-green {
-    background: url(../images/darkGreen.jpg) no-repeat center center fixed;
+    background: url(../assets/images/darkGreen.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-green {
-    background: url(../images/green.jpg) no-repeat center center fixed;
+    background: url(../assets/images/green.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-light-green {
-    background: url(../images/lightGreen.jpg) no-repeat center center fixed;
+    background: url(../assets/images/lightGreen.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -45,84 +45,84 @@ section {
 
 #section-blue {
     /*background: url(../images/blue.jpg) no-repeat center center fixed;*/
-    background: url(../images/lightGreen2.jpg) no-repeat center center fixed;
+    background: url(../assets/images/lightGreen2.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-indigo {
-    background: url(../images/indaco.jpg) no-repeat center center fixed;
+    background: url(../assets/images/indaco.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-light-blue {
-    background: url(../images/lightBlue.jpg) no-repeat center center fixed;
+    background: url(../assets/images/lightBlue.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-heavenly {
-    background: url(../images/hevenly.jpg) no-repeat center center fixed;
+    background: url(../assets/images/hevenly.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-red {
-    background: url(../images/red.jpg) no-repeat center center fixed;
+    background: url(../assets/images/red.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-orange {
-    background: url(../images/orange.jpg) no-repeat center center fixed;
+    background: url(../assets/images/orange.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-amber {
-    background: url(../images/amber.jpg) no-repeat center center fixed;
+    background: url(../assets/images/amber.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-yellow {
-    background: url(../images/yellow.jpg) no-repeat center center fixed;
+    background: url(../assets/images/yellow.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-fucsia {
-    background: url(../images/fucsia.jpg) no-repeat center center fixed;
+    background: url(../assets/images/fucsia.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-pink {
-    background: url(../images/pink.jpeg) no-repeat center center fixed;
+    background: url(../assets/images/pink.jpeg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-light-pink {
-    background: url(../images/black.jpg) no-repeat center center fixed;
+    background: url(../assets/images/black.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #section-white {
-    background: url(../images/white.jpg) no-repeat center center fixed;
+    background: url(../assets/images/white.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
