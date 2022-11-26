@@ -12,31 +12,78 @@
 
         <div class="horizon-prev"><img src="../assets/images/l-arrow.png"></div>
         <div class="horizon-next"><img src="../assets/images/r-arrow.png"></div>
+        
+        
+        <form action="updateJSON.php" method="post">
+            <section data-role="section" id="section-black">
+                <button type="submit" name="color" value="black">select</button>
+            </section>
+            <section data-role="section" id="section-dark-green">
+                <button type="submit" name="color" value="darkGreen">select</button>
+            </section>
+            <section data-role="section" id="section-green">
+                <button type="submit" name="color" value="green">select</button>
+            </section>
+            <section data-role="section" id="section-light-green">
+                <button type="submit" name="color" value="lightGreen">select</button>
+            </section>
+            <section data-role="section" id="section-blue">
+                <button type="submit" name="color" value="blue">select</button>
 
+            </section>
+            <section data-role="section" id="section-indigo">
+                <button type="submit" name="color" value="indigo">select</button>
 
-        <section data-role="section" id="section-black"></section>
-        <section data-role="section" id="section-dark-green"></section>
-        <section data-role="section" id="section-green"></section>
-        <section data-role="section" id="section-light-green"></section>
-        <section data-role="section" id="section-blue"></section>
-        <section data-role="section" id="section-indigo"></section>
-        <section data-role="section" id="section-light-blue"></section>
-        <section data-role="section" id="section-heavenly"></section>
-        <section data-role="section" id="section-red"></section>
-        <section data-role="section" id="section-orange"></section>
-        <section data-role="section" id="section-amber"></section>
-        <section data-role="section" id="section-yellow"></section>
-        <section data-role="section" id="section-fucsia"></section>
-        <section data-role="section" id="section-pink"></section>
-        <section data-role="section" id="section-light-pink"></section>
-        <section data-role="section" id="section-white"></section>
+            </section>
+            <section data-role="section" id="section-light-blue">
+                <button type="submit" name="color" value="lightBlue">select</button>
+
+            </section>
+            <section data-role="section" id="section-heavenly">
+                <button type="submit" name="color" value="black">select</button>
+
+            </section>
+            <section data-role="section" id="section-red">
+                <button type="submit" name="color" value="red">select</button>
+
+            </section>
+            <section data-role="section" id="section-orange">
+                <button type="submit" name="color" value="orange">select</button>
+
+            </section>
+            <section data-role="section" id="section-amber">
+                <button type="submit" name="color" value="amber">select</button>
+
+            </section>
+            <section data-role="section" id="section-yellow">
+                <button type="submit" name="color" value="yellow">select</button>
+
+            </section>
+            <section data-role="section" id="section-fucsia">
+                <button type="submit" name="color" value="fucsia">select</button>
+
+            </section>
+            <section data-role="section" id="section-pink">
+                <button type="submit" name="color" value="pink">select</button>
+
+            </section>
+            <section data-role="section" id="section-light-pink">
+                <button type="submit" name="color" value="lightPink">select</button>
+
+            </section>
+            <section data-role="section" id="section-white">
+                <button type="submit" name="color" value="white">select</button>
+                
+            </section>
+        </form>
+        
 
         <div class="dock_container" id="demo">
             <div class="dock">
                 <ul>
                     <li>
                         <span>Nero</span>
-                        <div class="color black" onclick="$(document).horizon('scrollTo', 'section-black'); changeColor('light');"></div>
+                        <div class="color black" onclick="$(document).horizon('scrollTo', 'section-dark-green'); changeColor('mid');"></div>
                     </li>
                     <li>
                         <span>Verde Scuro</span>
