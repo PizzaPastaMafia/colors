@@ -1,0 +1,264 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+section {
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#section-black {
+    background: url(../images/black.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-dark-green {
+    background: url(../images/darkGreen.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-green {
+    background: url(../images/green.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-light-green {
+    background: url(../images/lightGreen.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-blue {
+    background: url(../images/blue.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-indigo {
+    background: url(../images/indaco.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-light-blue {
+    background: url(../images/lightBlue.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-heavenly {
+    background: url(../images/hevenly.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-red {
+    background: url(../images/red.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-orange {
+    background: url(../images/orange.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-amber {
+    background: url(../images/amber.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-yellow {
+    background: url(../images/yellow.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-fucsia {
+    background: url(../images/fucsia.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-pink {
+    background: url(../images/pink.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-light-pink {
+    background: url(../images/lightPink.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section-white {
+    background: url(../images/white.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.horizon-prev, .horizon-next {
+    position: fixed;
+    top: 50%;
+    margin-top: -24px;
+    z-index: 9999;
+}
+
+.horizon-prev {
+    left: 20px;
+}
+
+.horizon-next {
+    right: 20px;
+}
+
+
+
+.dock_container
+{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    right: 10%;
+    left: 10%;
+    width: 80%;
+    /*padding: 0% 10% 0% 10%;*/
+    /*background: rgba(0, 0, 0, 0.4);*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 10px 0 0;
+}
+
+.dock_container li
+{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.dock_container li .color
+{
+    width: 55px;
+    height: 50px;
+    transition: all 0.4s;
+    transform-origin: 50% 100%;
+}
+
+.dock_container li:hover .color
+{
+    margin: 0 30px;
+    transform: scale(1.6);
+    transform: saturate(200%);
+}
+
+.dock_container li span
+{
+    display: none;
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 0;
+    border-radius: 10px;
+}
+
+.dock_container li:hover span
+{
+    display: block;
+    color:#fff;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.darkGreen {
+    background-color: #005500;
+}
+
+.green {
+    background-color: #00aa00;
+}
+
+.lightGreen {
+    background-color: #00ff00;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.indigo {
+    background-color: #0055ff;
+}
+
+.lightBlue {
+    background-color: #00aaff;
+}
+
+.heavenly {
+    background-color: #00ffff;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.orange {
+    background-color: #ff5500;
+}
+
+.amber {
+    background-color: #ffaa00;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+.fucsia {
+    background-color: #ff00ff;
+}
+
+.pink {
+    background-color: #ff55ff;
+}
+
+.lightPink {
+    background-color: #ffaaff;
+}
+
+.white {
+    background-color: #ffffff;
+}
